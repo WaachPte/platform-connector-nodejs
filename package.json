@@ -1,0 +1,19 @@
+{
+  "name": "generic_connector",
+  "version": "0.1.0",
+  "description": "Generic Platform Connector",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Waach",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "request": "^2.76.0"
+  }
+}

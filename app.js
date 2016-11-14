@@ -5,7 +5,8 @@ var express = require('express'),
 
 var app = express();
 var port = process.env.PORT || 3000;
-var HOST_NAME = 'http://localhost:3000';
+// var HOST_NAME = 'http://localhost:3000';
+var HOST_NAME = 'https://dailymotion-connector.herokuapp.com'
 
 app.use(bodyParser.urlencoded({
     extended: true

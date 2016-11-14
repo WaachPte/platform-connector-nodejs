@@ -25,6 +25,18 @@ $ gulp
 
 Remember to change `HOST_NAME` in `./app.js` to your domain name.
 
+## List of APIs
+
+| Description   | API           |
+| ------------- |:-------------:|
+| Connect API   | /api/auth/connect |
+| Refresh Token API  | /api/auth/refresh_token     |
+| Channel API | /api/channel      |
+| Video List API | /api/videos      |
+| Video Item API | /api/videos      |
+| Upload API | /api/upload      |
+
+
 # Document & Support
 
 Full documentation is available at http://docs.waachplatformconnector.apiary.io/#
